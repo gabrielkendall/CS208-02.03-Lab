@@ -3,23 +3,101 @@
 
 <head>
   <meta charset="utf-8">
-  <title>CS208 - Starter Code (UPDATE ME)!</title>
+  <title>CS208 - Hometown Introduction</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <h1>HTML Rocks!!</h1>
-  <ul>
-  <li><a href="/hello">Click here to say hello</a></li>
-  <li><button id="hello-link">Click Me!</button></li>
-  <li><button id="joke-button">Dad Joke!</button></li>
-  <script src="script.js"></script>
-  </ul>
-  <img src="funny.png" alt="Funny Image" width="300" height="200">
+  <h1>Meridian, Idaho, USA</h1>
+  <section id="location">
+    <h2>Location</h2>
+    <p>Between Boise and Nampa longitudinally, and between Kuna and Eagle latitudinally.</p>
+  </section>
 
-  <h2 id="joke-display"></h2>
+  <section id="about">
+    <h2>About</h2>
+
+    <section id="weather">
+      <h3>Weather</h3>
+      <p>Varies often but only rarly goes either below 0 or over 100 degrees. Snow has moved from october to late january over the last 10 years.</p>
+    </section>
+
+    <section id="population">
+      <h3>Population</h3>
+      <p>As of 2024 the population is estimated to be about 139.74 thousand people.</p>
+    </section>
+
+    <section id="fun-facts">
+      <h3>Fun Facts</h3>
+      <ul>
+        <li>Meridian has been the fastest growing city in Idaho since 1994, and is in the Top Ten fastest grownign cities in the country.</li>
+        <li>The Idaho State Police is headquartered in Meridian.</li>
+        <li>Meridian was originally settled as Hunter, ID in 1891. Before being renamed to Meridian in 1893.</li>
+      </ul>
+    </section>
+
+  <section id="things-to-do">
+    <h2>Things to Do</h2>
+
+    <!--Summer Activity Links-->
+    <ul>
+      <li><strong>Summer Activities</strong>
+        <ul>
+          <li><a href="https://www.wahoozfunzone.com/">Wahooz</a></li>
+          <li><a href="https://www.roaringsprings.com/">Roaring Springs</a></li>
+          <li><a href="https://meridiancity.org/parks/current-parks/settlers-park/">Settlers Park</a></li>
+        </ul>
+      </li>
+
+      <!--Year Round Activity Links-->
+      <li><strong>Year Round Activities</strong>
+        <ul>
+          <li><a href="https://www.thevillageatmeridian.com/">The Village at Meridian</a></li>
+          <li><a href="https://www.meridianspeedway.com/">The Meridian Speedway</a></li>
+          <li><a href="https://idahoartgallery.com/">Idaho Art Gallery</a></li>
+        </ul>
+      </li>
+    </ul>
+    
+    <!--Summer Activity Images-->
+    <table class="center" border="1">
+      <tr>
+        <th colspan="3" style="font-size: 24px;">Summer Activities</th>
+      </tr>
+      <!--Activity Titles-->
+      <tr>
+        <td>Wahooz</td>
+        <td>Roaring Springs</td>
+        <td>Settlers Park</td>
+      </tr>
+      <!--Activity Images-->
+      <tr>
+        <td><img src="/imgs/wahooz.jpg" alt="Wahooz" width="300" height="200"></td>
+        <td><img src="/imgs/roaring-springs-waterpark.jpg" alt="Roaring Springs" width="300" height="200"></td>
+        <td><img src="/imgs/settlers-park-3.jpg" alt="Settlers Park" width="300" height="200"></td>
+      </tr>
+
+      <!--Year Round Activity Images-->
+      <tr>
+        <th colspan="3" style="font-size: 24px;">Year Round Activities</th>
+      </tr>
+      <!--Activity Titles-->
+      <tr>
+        <td>The Village at Meridian</td>
+        <td>The Meridian Speedway</td>
+        <td>The Idaho Art Gallery</td>
+      </tr>
+      <!--Activity Images-->
+      <tr>
+        <td><img src="/imgs/thevillage.jpg" alt="The Village at Meridian" width="300" height="200"></td>
+        <td><img src="/imgs/meridian-speedway.jpg" alt="The Meridian Speedway" width="300" height="200"></td>
+        <td><img src="/imgs/idaho-art-gallery.jpg" alt="Idaho Art Gallery" width="300" height="200"></td>
+      </tr>
+    </table>
+  </section>
+
 </body>
 
 </html>
